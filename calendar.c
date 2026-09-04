@@ -37,7 +37,7 @@ int main()
 
     // Professional UI Header
     printf("=============================================================\n");
-    printf("                  CALENDAR APPLICATION                       \n");
+    printf("||                CALENDAR APPLICATION                     ||\n");
     printf("=============================================================\n\n");
 
     printf("Enter the year: ");
@@ -54,7 +54,8 @@ int main()
 
     for (int i = 0; i < 12; i++)
     {
-        printf("\n    %s\n", months[i]);
+
+        printf("\n\n============================\n\t  %s\n============================\n", months[i]);
         printf(" Sun Mon Tue Wed Thu Fri Sat\n");
         printf(" --- --- --- --- --- --- ---\n");
 
