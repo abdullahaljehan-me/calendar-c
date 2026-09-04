@@ -29,6 +29,9 @@ int main(int argc, char const *argv[])
             daysInMonth[1] = 29;
         }
 
+        // GET THE FIRST DAY OF THE YEAR
+        weekDay = getFirstDayOfTheYear(year);
+
         for (spaceCount = 0; spaceCount <= weekDay; spaceCount++)
         {
             printf("\t\t\t\t\t");
